@@ -6,3 +6,5 @@ public class CLA {
         System.out.println(args[2]);
     }
 }
+/// javac CLA.java --> compile 
+/// java CLA     ---> run
