@@ -19,7 +19,7 @@ class Constructure1 {
     
 }
 
-class Q1{
+class Cons1{
 
     public static void main(String []args)
     {
