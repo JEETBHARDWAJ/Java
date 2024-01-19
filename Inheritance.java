@@ -1,21 +1,28 @@
-class Class1{
+class Nokia1{
     int x;
-    private int y;
-    static private int p;
+    int imi;
+    String model;
 
 }
-class Class2 extends Class1 {
+class Nokia2 extends Nokia1 {
+    void fun(int a,String b){
+      imi = a;
+      model = b;
+    }
+    System.out.println(imi);
+    System.out.println(model);
 
+    
 }
-
-
-
-
 
 
 class Inheritance {
     public static void main(String []args){
-        System.out.println();
+        Nokia2 n2 = new Nokia2();
+        n2.fun(123456789, "jshdf");
+
+        System.out.println("exit");
 
     }
 }
+ 
