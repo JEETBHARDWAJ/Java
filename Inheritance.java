@@ -1,8 +1,11 @@
 class Class1{
+    int x;
+    private int y;
+    static private int p;
 
 }
-class Class2{
-    
+class Class2 extends Class1 {
+
 }
 
 
