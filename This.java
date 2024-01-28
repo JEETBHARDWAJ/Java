@@ -22,7 +22,13 @@ public class This {
     public static void main(String []args)
 
     {
-        Scanner s1 = 
+        int a,b,c;
+        Scanner s1 = new Scanner(System.in);
+        System.out.println("Enter a:");
+        System.out.println("Enter b:");
+        System.out.println("Enter c:");
+        a = s1.nextInt();
+
         ThisTest t1 = new ThisTest();
         t1.fun(1, 02, 03);
         t1.fun2();
