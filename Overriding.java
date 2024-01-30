@@ -11,8 +11,6 @@ class V extends S{
         System.out.println("calss V ");
 
     }
-
-
 }
 public class Overriding {
 
