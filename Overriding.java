@@ -20,6 +20,5 @@ public class Overriding {
     s1.display();
 
         
-    }
-    
+    } 
 }
