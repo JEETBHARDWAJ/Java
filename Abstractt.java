@@ -38,7 +38,8 @@ class Abstractt{
     public static void main(String args[])
     {
        Saving s1 = new Saving();
-       s1.insert_detail("jeet", 1221," asf", "fal");
+       s1.insert_detail("jeet_bhardwaj", 101132," biahr patna ", "fal");
+       s1.user_detail();
         
     }
 }
