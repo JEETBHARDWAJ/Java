@@ -1,4 +1,4 @@
-import Apple.*;
+import Apple.Apple;
 public class user {
     public static void main(String[] args) {
         Apple a1 = new Apple();
