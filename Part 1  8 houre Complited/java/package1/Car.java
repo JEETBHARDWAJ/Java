@@ -1,5 +1,7 @@
+
 package package1;
-public class Car {
+
+    public class Car {
     String brand = "Ford"; 
     int price = 40000000;
     String color = "z-Black";
@@ -12,12 +14,4 @@ public class Car {
 
     }
 
-}
-/**
- * InnerCar
- */
-public class newclass {
-    
-
-    
 }
