@@ -1,0 +1,93 @@
+________________________   log in git  _______________________________
+
+git confing --global user.name "***"
+
+git config --global user.email "***@gmail.com"
+
+git config --list
+
+
+__________________________ Clone&status _______________________________
+
+git clone https://youtu.be/Ez8F0nW6S-w     -----> To clone existing repositry form github
+
+ls -a                                      -----> show all files in folder
+
+git status                                 -----> Not any change in code, or show any changes in code
+
+
+**** status keywords menning ******
+
+untracked--> New files that git doesn't yet track
+
+modified--> chanded
+
+staged--> file is ready to be committed
+
+unmodified--> unchanged
+
+
+____________________________ Add & commit __________________________
+
+Add --- adds new or changed files in your working directory to the git staging area.
+
+              git add <- file name ->
+              git add .
+
+
+commit--- it is the record of change
+
+              git commit -m "some message"
+
+
+push--- upload local repo content to remote repo
+
+             git push origin main
+
+
+
+
+________________________    git init   _____________________________________
+
+
+
+                              init -- > used to create a new git repo
+
+       git init
+
+       
+       git remote add origin <-- link-->
+
+
+       git remote -v (to verify remote)
+
+
+       git branch  (to check btranch)
+   
+          git branch -M main  (to rename branch)
+
+
+       git push origin mani
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
